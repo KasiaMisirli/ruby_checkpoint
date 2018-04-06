@@ -30,7 +30,8 @@ town = {
 # - Add "Belle" to the `guests` array
 # Type your solution directly below this line:
 
-
+town[:residents].delete("Belle")
+town[:castle][:guests] << "Belle"
 
 
 
