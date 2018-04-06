@@ -9,7 +9,7 @@ def offer_rose (person)
   the bitter cold?"
 end
 
-
+offer_rose("kasia")
 
 
 
@@ -70,13 +70,23 @@ lost_boys = [
 # Use `.each` to iterate over the `lost_boys` array and increase each boy's age by
 # 30 years.
 # Type your solution directly below this line:
+$i = 0
+$num = 5
+
+while $i < $num  do
+   puts("Inside the loop i = #$i" )
+   $i +=1
+end
+
+
+
 i = 0
 lost_boys.each do |boy|
  lost_boys[i][:age].to_i + 30
  i+=1
 end
 
-
+while 
 
 
 # Question 5
