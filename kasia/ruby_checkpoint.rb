@@ -70,8 +70,11 @@ lost_boys = [
 # Use `.each` to iterate over the `lost_boys` array and increase each boy's age by
 # 30 years.
 # Type your solution directly below this line:
-
-
+i = 0
+lost_boys.each do |boy|
+ lost_boys[i][:age].to_i + 30
+ i+=1
+end
 
 
 
