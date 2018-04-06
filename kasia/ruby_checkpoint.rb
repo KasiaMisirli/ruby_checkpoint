@@ -70,13 +70,7 @@ lost_boys = [
 # Use `.each` to iterate over the `lost_boys` array and increase each boy's age by
 # 30 years.
 # Type your solution directly below this line:
-$i = 0
-$num = 5
 
-while $i < $num  do
-   puts("Inside the loop i = #$i" )
-   $i +=1
-end
 
 
 
@@ -86,7 +80,7 @@ lost_boys.each do |boy|
  i+=1
 end
 
-while 
+
 
 
 # Question 5
