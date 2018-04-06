@@ -42,13 +42,17 @@ town[:castle][:guests] << "Belle"
 
 friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
 
-# Using a loop and string interpolation, print each string in `friends` to the Terminal...
+# Using a loop and string interpolation, print each string in `friends` to the 
+#Terminal...
 # "Belle is friends with Chip Potts"
 # "Belle is friends with Cogsworth"
 # "Belle is friends with Lumière"
 # "Belle is friends with Mrs. Potts"
 # Type your solution directly below this line:
 
+friends.each do |friend|
+  puts "Bella is friends with #{friend}"
+end
 
 
 
